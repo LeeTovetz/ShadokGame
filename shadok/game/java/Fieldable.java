@@ -1,4 +1,4 @@
-package shadok.java.game;
+package shadok.game.java;
 
 public interface Fieldable {
 

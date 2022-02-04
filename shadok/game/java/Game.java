@@ -1,4 +1,4 @@
-package shadok.java.game;
+package shadok.game.java;
 
 import java.util.ArrayList;
 import java.util.Random;
