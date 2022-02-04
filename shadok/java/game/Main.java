@@ -18,8 +18,9 @@ public class Main {
         String command;
 
         do {
-            System.out.println("Welcome to the java game. Choose a level ...");
-            System.out.println("1: start of the game; ");
+
+            System.out.println("Welcome to BigJavaGame v 1.0. Please make your choice and press Enter:");
+            System.out.println("1: Start new game");
             System.out.println("2: Options");
             System.out.println("3: Credits");
             System.out.println("4: Exit");
@@ -44,24 +45,31 @@ public class Main {
                     break;
 
                 default:
-                    System.out.println("Command not recognized! Please try again.");
+                    System.out.println("Command not recognized! Please try again");
 
             }
-
         }
 
         while (!command.equals("4"));
-
     }
 
     private static void openOptionsMenu() {
     }
 
     private static void startNewGame() {
+
+        Game game = new Game(rows, columns, amountOfEnemies,
+                transistorsNeeded, moves, getAmountOfFlowers);
+
+        game.fillFieldWithEmptyObjects();
+
+        game.startGame();
+
     }
 
     private static void showCredits() {
         System.out.println("\nCreated by Sergey Kravchenko\n" +
-                "version 1.0, last modified on 29.01.2022\n");
+                "version 1.0, last modified on 04.02.2022\n");
     }
 }
+
