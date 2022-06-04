@@ -9,3 +9,6 @@ design patterns, basic algorithms and data structures.<br>
 **Dmitry Finashkin** is the author of this course on creating the Game.<br> 
 Link to playlist<br> 
 https://youtube.com/playlist?list=PL7ZzXmLk6CYUpRdP5f0drHJtfJLayDy9a
+
+
+
